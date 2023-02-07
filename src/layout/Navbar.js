@@ -26,10 +26,10 @@ const Navbar = () => {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                      <div className="flex items-center justify-between w-32">
+                      <div className="flex items-center justify-between w-42">
                        <GiAlliedStar size={40} color='rgb(251 191 36)' />
                         <Link  to='/' >
-                            <h2 className="text-2xl font-bold">LOGO</h2>
+                            <h2 className="text-3xl font-bold">PopCritic</h2>
                         </Link>
                       </div>
                         <div className="md:hidden">

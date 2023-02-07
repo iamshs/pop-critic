@@ -12,6 +12,8 @@ const Movies = () => {
           ),
       })
 
+      
+
       if(isLoading){
         return <Spinner />
       }

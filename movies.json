@@ -2,9 +2,9 @@
     {
         "name" : "Pathaan",
         "image" : "https://m.media-amazon.com/images/M/MV5BZGI3NzQ5NTctZWQ4Ni00ZGJkLTg5N2UtYTBjNzcyN2EyOTM0XkEyXkFqcGdeQXVyOTI3MzI4MzA@._V1_.jpg" ,
-        "rating" : 5 ,
         "trailer" : "https://www.youtube.com/watch?v=vqu4z34wENw",
         "director" : "Siddharth Anand",
+        "rating" : 5,
         "actor" : "Shahrukh Khan , Deepika Padukune , John Abraham",
         "producer" : "Aditya Chopra"
        
@@ -12,9 +12,9 @@
     {
         "name" : "Devdas",
         "image" : "https://m.media-amazon.com/images/M/MV5BMTY0NjE0ODczMV5BMl5BanBnXkFtZTcwMDg1ODgzMQ@@._V1_.jpg" ,
-        "rating" : 5 ,
         "trailer" : "https://www.youtube.com/watch?v=8tuHQWGMQwY",
         "director" : "Sanjay Leela Bhansali",
+        "rating" : 5,
         "actor" : "Shahrukh Khan , Aishwarya Rai  , Maduri Dixit",
         "producer" : "Sanjay Leela Bhansali"
        
@@ -22,11 +22,21 @@
     {
         "name" : "Aynabaji",
         "image" : "https://upload.wikimedia.org/wikipedia/en/1/1b/Aynabaji.jpg" ,
-        "rating" : 5 ,
         "trailer" : "https://www.youtube.com/watch?v=lz31hZmK3jc",
         "director" : "Amitabh Reza",
+        "rating" : 4,
         "actor" : "Chanchal Chowdhury, Masuma Rahman Nabila and Partha Barua",
         "producer" : " Ziauddin Adil, Esha Yousuff, Asaduzzaman Sokal"
+       
+    },
+    {
+        "name" : "My Name is Khan",
+        "image" : "https://www.teahub.io/photos/full/147-1475795_poster-my-name-is-khan.jpg" ,
+        "trailer" : "https://www.youtube.com/watch?v=lz31hZmK3jc",
+        "director" : "Karan Johar",
+        "rating" : 5,
+        "actor" : "Shahrukh Khan , Kajol etc",
+        "producer" : " Karan Johar"
        
     }
 ]
