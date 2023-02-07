@@ -17,22 +17,22 @@ import { Autoplay, Pagination, Navigation } from 'swiper';
 const Carousel = () => {
     const imageData = [
         {
-            img: "https://images.mid-day.com/images/images/2023/jan/Pathan-Movies12_d.jpg"
+            img: "https://www.bollywoodhungama.com/wp-content/uploads/2023/01/Pathaan-2-10.jpg"
         },
         {
-            img: "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/07/dhanush-1-1658979649.jpg"
+            img: "https://wonderfulengineering.com/wp-content/uploads/2016/02/iron-man-wallpaper-22.jpg"
         },
         {
-            img: "https://images.mid-day.com/images/images/2023/jan/Pathan-Movies12_d.jpg"
+            img: "https://images3.alphacoders.com/723/thumb-1920-72397.jpg"
         },
         {
-            img: "https://wallpaperaccess.com/full/3968476.jpg"
+            img: "https://www.pixelstalk.net/wp-content/uploads/images6/Spiderman-Wallpaper-HD-Free-download.jpg"
         },
         {
-            img: "https://c4.wallpaperflare.com/wallpaper/194/620/840/movies-bollywood-movies-wallpaper-preview.jpg"
+            img: "https://wallpapercave.com/wp/wp2602668.jpg"
         },
         {
-            img: "https://wallpaperaccess.com/full/3968121.jpg"
+            img: "https://i0.wp.com/www.3dart.it/wp-content/uploads/2013/07/The-Wolverine-Wallpaper-2.jpg?fit=1600%2C1098&ssl=1"
         },
     ]
     const progressCircle = useRef(null);
