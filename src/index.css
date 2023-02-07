@@ -4,12 +4,13 @@
 
 body {
   margin: 0;
-  font-family: "Exo", sans-serif;
-  font-family: "Heebo", sans-serif;
-  font-family: "PT Serif", serif;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(23 23 23);
 }
 
 code {
