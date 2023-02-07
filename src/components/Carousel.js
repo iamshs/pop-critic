@@ -59,7 +59,7 @@ const Carousel = () => {
           className="mySwiper  "
         >
             {
-                imageData.map((image,index) =>  <SwiperSlide key={image.index}>
+                imageData.map((image,index) =>  <SwiperSlide key={index}>
                    <div className='h-[45rem] w-[92%] ' >
                    <img className='w-full'  src={image.img} alt='' />
                    </div>
