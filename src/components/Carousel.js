@@ -56,12 +56,12 @@ const Carousel = () => {
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           onAutoplayTimeLeft={onAutoplayTimeLeft}
-          className="mySwiper  "
+          className="mySwiper h-full  "
         >
             {
                 imageData.map((image,index) =>  <SwiperSlide key={index}>
-                   <div className='h-[45rem] w-[92%] ' >
-                   <img className='w-full'  src={image.img} alt='' />
+                   <div className=' w-full ' >
+                   <img className='w-full h-full'  src={image.img} alt='' />
                    </div>
                 </SwiperSlide>  )
             }
