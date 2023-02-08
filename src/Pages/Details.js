@@ -13,7 +13,7 @@ const Details = () => {
   } = useQuery({
     queryKey: ["moviesData"],
     queryFn: () =>
-      fetch(`http://localhost:5000/movie/${id}`).then((res) => res.json()),
+      fetch(`https://pop-server.vercel.app/movie/${id}`).then((res) => res.json()),
   });
   if (isLoading) {
     return <Spinner />;

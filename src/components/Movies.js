@@ -8,7 +8,7 @@ const Movies = () => {
   const {  data:movies ,isLoading, error , isError } = useQuery({
     queryKey: ['movieData'],
     queryFn: () =>
-      fetch("http://localhost:5000/movies").then(
+      fetch("https://pop-server.vercel.app/movies").then(
         (res) => res.json(),
       )
   })
