@@ -3,7 +3,7 @@ import '../Styles/Spinner.css'
 
 const Spinner = () => {
     return (
-        <div>
+        <div className='flex items-center justify-center '>
           <span className="loader"></span>  
         </div>
     );

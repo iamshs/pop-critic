@@ -35,15 +35,15 @@ const Movie = ({ movie }) => {
       </div>
     
       <div className="grid place-items-center">
-      <h1 className="text-3xl mt-2 font-semibold text-white px-4 "> {name} </h1>
+      <h1 className="text-3xl mt-2 font-semibold text-amber-400 px-4 "> {name} </h1>
       <button
         onClick={handleNavigate}
-        className="text-2xl  py-2 w-[98%] hover:bg-neutral-900  my-6 border border-blue-700 text-blue-400"
+        className="text-2xl  py-2 w-[95%] hover:bg-neutral-900  my-6 border border-blue-700 text-blue-600"
       >
         See More
       </button>
       <button
-        className=" flex items-center text-[#F5F5F5] text-xl px-4   mb-3  hover:bg-[#303030]  font-bold"
+        className=" flex items-center text-[#F5F5F5] text-xl px-4 py-2   mb-3  hover:bg-[#303030]  font-bold"
         onClick={handleVideo}
       >
         <RxResume />

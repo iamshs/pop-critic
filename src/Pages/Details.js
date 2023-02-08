@@ -20,28 +20,26 @@ const Details = () => {
   }
 
   return (
-    <div className="flex justify-around ">
-      <div className="max-w-md">
-        <img className="" src={movie.image} alt="" />
+    <div className=" grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 p-10 gap-10 ">
+      <div className="">
+        <img className="lg:w-[80%] lg:h-[40rem] " src={movie.image} alt="" />
       </div>
-      <div className="max-w-md">
+      <div className="">
         <div>
-          
+        <ReactPlayer controls={true}  width="100%"   url={movie.trailer} />
         </div>
         <div className="text-white">
-          <h1 className="text-5xl font-bold my-10"> {movie.name} </h1>
-          <h2 className="text-3xl font-semibold">
-            Director : {movie.director}{" "}
+          <h1 className="lg:text-5xl text-3xl font-bold my-10"> {movie.name} </h1>
+          <h2 className="lg:text-3xl text-2xl font-semibold">
+            Director : {movie.director}
           </h2>
           <h2 className="text-2xl font-semibold">
-            {" "}
-            Starrer : <span className="text-xl text-normal">
+            Starrer : <span className="lg:text-xl text-lg text-amber-400 text-normal">
               {movie.actor}
-            </span>{" "}
+            </span>
           </h2>
           <h2 className="text-2xl font-semibold">
-            Produced By :{" "}
-            <span className="text-xl text-normal">{movie.producer}</span>{" "}
+            Produced By :<span className="lg:text-xl text-lg text-amber-400 text-normal">{movie.producer}</span>
           </h2>
         </div>
       </div>
