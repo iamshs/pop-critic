@@ -7,7 +7,7 @@ const Movies = () => {
     const {  data:movies ,isLoading, error } = useQuery({
         queryKey: ['movieData'],
         queryFn: () =>
-          fetch('http://localhost:5000/movies').then(
+          fetch('movies.json').then(
             (res) => res.json(),
           ),
       })
@@ -29,6 +29,7 @@ const Movies = () => {
                 movies.map(movie => <Movie key={movie._id} movie={movie} />)
             }
            </div>
+         
         </section>
     );
 };
