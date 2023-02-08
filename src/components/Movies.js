@@ -1,18 +1,21 @@
 import { useQuery } from '@tanstack/react-query';
 import React from 'react';
+
 import Movie from './Movie';
 import Spinner from './Spinner';
 
 const Movies = () => {
-    const {  data:movies ,isLoading, error } = useQuery({
-        queryKey: ['movieData'],
-        queryFn: () =>
-          fetch('movies.json').then(
-            (res) => res.json(),
-          ),
-      })
+  const {  data:movies ,isLoading, error , isError } = useQuery({
+    queryKey: ['movieData'],
+    queryFn: () =>
+      fetch("http://localhost:5000/movies").then(
+        (res) => res.json(),
+      )
+  })
 
-      
+  if(isError){
+    console.log(error)
+  }    
 
       if(isLoading){
         return <Spinner />
